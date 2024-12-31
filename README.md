@@ -24,6 +24,14 @@ For example:
 npx nx build myproject
 ```
 
+To run run, build and test any app:
+
+```
+npm run dev <app_name>
+npm run build <app_name>
+npm run test <app_name>
+```
+
 ### Commands for myapp project
 
 To build the remix app named `myapp` :

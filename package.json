@@ -5,7 +5,8 @@
   "scripts": {
     "gen-remix": "nx g @nx/remix:app",
     "myapp:build": "npx nx build myapp",
-    "myapp:dev": "npx nx dev myapp"
+    "myapp:dev": "npx nx dev myapp",
+    "myapp:test": "npx nx test myapp"
   },
   "private": true,
   "devDependencies": {

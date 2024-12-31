@@ -12,5 +12,17 @@
       "{workspaceRoot}/.github/workflows/ci.yml"
     ]
   },
-  "nxCloudId": "67737c047ba4f635803939c9"
+  "nxCloudId": "67737c047ba4f635803939c9",
+  "plugins": [
+    {
+      "plugin": "@nx/remix/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "typecheckTargetName": "typecheck",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ]
 }

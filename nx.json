@@ -58,5 +58,12 @@
     "e2e-ci--**/*": {
       "dependsOn": ["^build"]
     }
+  },
+  "generators": {
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "none"
+      }
+    }
   }
 }

@@ -50,10 +50,20 @@ These targets are either [inferred automatically](https://nx.dev/concepts/inferr
 
 ## Add new projects
 
+### Apps
+
 Generate **a Remix app**:
 
 ```
 npm run gen-remix apps/<app_name>
+```
+
+### Libraries
+
+Generate a _library_:
+
+```sh
+npm run gen-lib libs/<library_name>
 ```
 
 You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.

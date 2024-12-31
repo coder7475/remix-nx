@@ -24,7 +24,7 @@ For example:
 npx nx build myproject
 ```
 
-## Commands for myapp project
+### Commands for myapp project
 
 To build the remix app named `myapp` :
 

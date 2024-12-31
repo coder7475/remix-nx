@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "gen-remix": "npx nx g @nx/remix:app",
-    "gen-lib": "nx g @nx/remix:lib",
+    "gen-lib": "npx nx g @nx/remix:lib",
+    "gen-route": "npx nx g @nx/remix:route",
+    "gen-loader": "npx nx g @nx/remix:loader",
     "myapp:build": "npx nx build myapp",
     "myapp:dev": "npx nx dev myapp",
     "myapp:test": "npx nx test myapp",

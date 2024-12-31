@@ -50,9 +50,7 @@ These targets are either [inferred automatically](https://nx.dev/concepts/inferr
 
 ## Add new projects
 
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
-
-Generate a Remix app:
+Generate **a Remix app**:
 
 ```
 npm run gen-remix apps/<app_name>

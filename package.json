@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "gen-remix": "nx g @nx/remix:app",
+    "gen-remix": "npx nx g @nx/remix:app",
+    "gen-libaray": "npx ",
     "myapp:build": "npx nx build myapp",
     "myapp:dev": "npx nx dev myapp",
     "myapp:test": "npx nx test myapp"
